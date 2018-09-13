@@ -1,0 +1,15 @@
+{
+    "name": "surucolors.mateo-salta",
+    "description": "description of surucolors",
+    "architecture": "@CLICK_ARCH@",
+    "title": "surucolors",
+    "hooks": {
+        "surucolors": {
+            "apparmor": "surucolors/surucolors.apparmor",
+            "desktop": "surucolors/surucolors.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Mateo Salta <mateo_salta@yahoo.com>",
+    "framework": "ubuntu-sdk-15.04.6"
+}
